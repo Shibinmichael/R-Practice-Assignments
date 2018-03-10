@@ -1,0 +1,3 @@
+Using Linera Regression build a model to predict the number of wins of a base ball team.
+
+the number of wins will be predicted on the RD - Run Difference, OBP-Onbase percentage etc
