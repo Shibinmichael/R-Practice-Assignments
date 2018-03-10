@@ -1,0 +1,4 @@
+Using Logistic regression to predict the quality of healthcare. Whether the patients are receiving good care or poor care. This is using the dataset 'quality'
+
+Similarly using logistic regression we will predict the risk of cardiac heart disease. The dataset used here is Framingham Heart Study
+
