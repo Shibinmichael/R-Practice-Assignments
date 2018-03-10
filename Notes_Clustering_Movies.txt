@@ -1,0 +1,3 @@
+using the dataset -Movies( consists of the movie details as well as whether the movie is part of one or many genres such as horror, comedy etc.
+
+We pwerform Hierarchial Clustering and slect the cut off at 10. We have ten cluster groups under which the movies can be assigned.
