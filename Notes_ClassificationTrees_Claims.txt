@@ -1,4 +1,0 @@
-We have claims details fo the year 2008.
-Depending on the cost in 2008, we have divided the group into 5 cost buckets.
-
-Using the data we will now predict  who will fall into each of the cost buckets - using a classifcation tree(rpart function)
