@@ -6,7 +6,6 @@ table(quality$PoorCare)
 #need to split data nto training and testing set
 install.packages("caTools")
 library("caTools")
-set.seed(88)
 split = sample.split(quality$PoorCare, SplitRatio = 0.75)
 #split will have true false values, with true for training set
 qualityTrain = subset(quality, split == TRUE)
