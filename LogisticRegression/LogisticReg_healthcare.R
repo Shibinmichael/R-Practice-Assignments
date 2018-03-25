@@ -35,7 +35,6 @@ plot(ROCRperf, colorize=TRUE, print.cutoffs.at = seq(0,1,0.1),text.adj=c(-0.2,1.
 framingham = read.csv("framingham.csv")
 str(framingham)
 library(caTools)
-set.seed(1000)
 split = sample.split(framingham$TenYearCHD, SplitRatio = 0.65)
 train = subset(framingham, split==TRUE)
 test = subset(framingham, split==FALSE)
