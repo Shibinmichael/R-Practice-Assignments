@@ -1,7 +1,6 @@
 stevens = read.csv("stevens.csv")
 str(stevens)
 library(caTools)
-set.seed(3000)
 spl = sample.split(stevens$Reverse, SplitRatio = 0.7)
 Train = subset(stevens, spl==TRUE)
 Test = subset(stevens, spl==FALSE)
