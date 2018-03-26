@@ -1,5 +1,3 @@
 Using the data set from Twitter, we do a sentiment analysis on APPLE.
-
-The analysis is done by pre processing the text from Twitter, creating bag of words and then making the freuently occuring words as independent variables.
-
+The analysis is done by pre processing the text from Twitter, creating a bag of words and then making the frequently occuring words as independent variables.
 Using the independent variable we now predict the sentiment of a tweet using Classification Trees(Random Forests)
