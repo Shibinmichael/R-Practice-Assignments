@@ -1,4 +1,3 @@
-This is a model build using Liner Regression to predict the price of the wine.
-
+This is a model built using Liner Regression to predict the price of the wine.
 The Price of the wine is predicted using several factors such as 'Average Season Temperature, 'Year' , 'Winter Rain' etc.
-
+Check for the significant variables and eliminate other variables from the model
