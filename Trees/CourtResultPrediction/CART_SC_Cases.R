@@ -25,6 +25,9 @@ pred = prediction(PredictROC[,2], Test$Reverse)
 perf = performance(pred, "tpr", "fpr")
 plot(perf)
 
+#calc auc
+as.numeric(performance(pred, "auc")@y.values)
+
 # Install randomForest package
 install.packages("randomForest")
 library(randomForest)
